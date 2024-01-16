@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "eltarot",
-    "slug": "eltarot",
-    "version": "1.0.0",
+    "name": "Eltarot",
+    "slug": "Eltarot",
+    "version": "2.6.6",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f3f0ea"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,11 +23,22 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#f3f0ea"
+      },
+      "package": "com.t2madrid.Eltarot",
+      "permissions": [],
+      "versionCode": 16
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a745e38a-2adb-40fd-8481-f320a1b1358f"
+      }
     }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-2941690616570089~9044230200"
   }
 }
